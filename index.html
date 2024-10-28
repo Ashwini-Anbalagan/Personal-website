@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwini portfolio</title>
+    <link href="pstyle.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d7a5262891.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+         <nav>
+            <img src="images/Ashlogo.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Ashwini Anbalagan</span><br> From Bangalore</h1>
+         </div>
+       </div> 
+    </div>
+<!----------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Ashh.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>Dedicated and determined computer science engineering student with a strong foundation in coding,
+                        problem-solving and hands-on experience in teaching. Passionate about technology, continuous 
+                        learning, applying innovative approaches to enhance performance and usability. Eager to contribute to 
+                        a dynamic team and leverage my technical skills to drive successful project outco</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>   
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Langanuages</span><br>Java,Python,HTML,CSS,Javascript,C,PHP</li>
+                                <li><span>Techologies & Tools</span><br>MySQL,VSC,MS 360,Mediapipe,OpenCV,XAMPP</li>
+                                <li><span>Key Skills</span><br>DSA,OOPs,Basics of Cryptographic Algorithms</li>
+                            </ul>
+                        </div>   
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>October 2024 - Current</span><br>Web development Intern at EveryCrave Pvt Ltd</li>
+                                <li><span>November 2023</span><br>Intern at Defence and Research Development Organization(DRDO)-CABS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2025</span><br>MVJ College Of Engineering - B.E in Computer Science</li>
+                                <li><span>2021</span><br>St.Joseph's Indian Composite PU College - PCMB</li>
+                                <li><span>2019</span><br>St.Antony's Public School - ICSE</li>
+                            </ul>
+                        </div>    
+            </div>
+        </div>
+    </div>
+<!--------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web- Design</h2>
+                <p>We offer custom web design services that blend creativity with functionality, ensuring responsive, user-centric websites. Our designs are tailored to meet your business needs and create a lasting online impact.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>AIML products</h2>
+                <p>We offer AI/ML project services that deliver intelligent, data-driven solutions to optimize your business operations. Our expertise helps build innovative models for automation, prediction, and personalized experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App design</h2>
+                <p>Our app design services focus on creating intuitive, visually engaging interfaces that offer seamless user experiences. We design apps tailored to your business needs, ensuring both functionality and aesthetic appeal.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/screen-pic.jpg">
+                <div class="layer">
+                    <h3>Screen Recording using Intel UHD 360</h3>
+                    <p>The project focuses on creating an efficient screen recording system to capture and analyze visual data crucial for defense operations.This project plays a vital role in monitoring and analyzing real-time data during airborne missions, simulations, and training exercises. The recorded data enhances situational awareness and decision-making by providing valuable insights during post-mission analysis.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/app-pic.jpg">
+                <div class="layer">
+                    <h3>To-Do list application</h3>
+                    <p>Developed a dynamic web-based To-Do list application. 
+                        Implemented features include user authentication, task categorization, and a responsive design 
+                       for mobile compatibility. Utilized PHP for server-side scripting and SQL for database 
+                       management, ensuring data persistence and security.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ml-pic.png">
+                <div class="layer">
+                    <h3>Gameplaying using Hand gestures - OpenCV and Mediapipe</h3>
+                    <p>Developed an interactive game control system that utilizes hand gesture recognition to enhance 
+                    user experience.Integrated OpenCV for real-time video processing and MediaPipe for accurate hand tracking, 
+                    enabling seamless gesture recognition.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> ashwinianbalagan03@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6363447220</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Ashwini A resume 24.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Ashwini Anbalagan. Made with <i class="fa-solid fa-heart"></i> Easy Tutorials</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }    
+</script>
+</body>
+</html>
